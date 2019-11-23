@@ -1,5 +1,5 @@
 {
-  "name": "markserv",
+  "name": "my-markserv",
   "version": "1.17.2",
   "description": "🏁  serve markdown as html (GitHub style), index directories, live-reload as you edit",
   "preferGlobal": true,
@@ -81,7 +81,7 @@
     "implant": "^2.0.3",
     "is-online": "^7.0.0",
     "less": "^3.8.1",
-    "livereload": "^0.7.0",
+    "livereload": "^0.8.2",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-emoji": "^1.4.0",
@@ -89,6 +89,7 @@
     "markdown-it-include": "^1.0.0",
     "markdown-it-table-of-contents": "^0.4.3",
     "markdown-it-task-lists": "^2.1.1",
+    "markserv": "git+https://github.com/edoardesd/markserv.git",
     "meow": "^5.0.0",
     "micromatch": "^3.1.3",
     "mime": "^1.4.1",
@@ -100,11 +101,11 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^6.1.2",
-    "ava": "^0.25.0",
+    "ava": "^2.4.0",
     "coveralls": "^3.0.0",
     "get-port": "^3.2.0",
     "husky": "^0.14.3",
-    "nyc": "^11.7.1",
+    "nyc": "^14.1.1",
     "request": "^2.85.0",
     "xo": "^0.20.3"
   },
